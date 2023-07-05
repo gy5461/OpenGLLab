@@ -59,7 +59,7 @@ int main(void)
 	// 将顶点数据绑定至当前默认的缓冲中
 	glBufferData(GL_ARRAY_BUFFER, sizeof(triangle), triangle, GL_STATIC_DRAW);	// static draw表示顶点数据不会被改变
 	
-	// 设置顶点属性指针
+	// 设置顶点属性指针，告诉GPU我们要如何处理显存中的数据
 	// 参数1：表示顶点着色器位置值
 	// 参数2：表示是几分量的向量
 	// 参数3：表示顶点类型
