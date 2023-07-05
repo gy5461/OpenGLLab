@@ -10,8 +10,8 @@ const float triangle[] = {
 	 0.0f,  0.5f, 0.0f,	// 正上
 };
 
-int screen_width = 1280;
-int screen_height = 720;
+int screen_width = 800;
+int screen_height = 600;
 
 int main(void)
 {
